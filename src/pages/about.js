@@ -1,15 +1,15 @@
 import * as React from "react";
 import { Link } from "gatsby";
+import Layout from "../components/layout.js";
 
 const AboutPage = () => {
   return (
-    <main>
+    <Layout title="About">
       <title>About</title>
-      <h1>About</h1>
       <p>
         <Link to="/">Back to the home page</Link>
       </p>
-    </main>
+    </Layout>
   );
 };
 
